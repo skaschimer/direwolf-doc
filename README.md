@@ -1,18 +1,14 @@
 # Additional Documentation for Dire Wolf Software TNC
 
-Most of the Dire Wolf documentation is part of the source code repository [https://github.com/wb2osz/direwolf/tree/master/doc](https://github.com/wb2osz/direwolf/tree/master/doc)
+The Dire Wolf documentation started out being part of the source code repository [https://github.com/wb2osz/direwolf/tree/master/doc](https://github.com/wb2osz/direwolf/tree/master/doc)
 
-The large number of documentation files and revisions are making the source code repository very large which means long download times.  The more general purpose documentation will be migrated here to slow down the source code repository growth.
-
-
+The large number of documentation files and revisions are making the source code repository very large which means long download times.  The User Guide will probably have to stay with the source code because it is release dependent.  The more general purpose documentation will be migrated here to slow down the source code repository growth.
 
 ## Recommended for Everyone using APRS
 
 - [**Understanding APRS Packets**](https://github.com/wb2osz/aprsspec/raw/main/Understanding-APRS-Packets.pdf) 
   
   Learn how to decipher APRS packets and avoid common mistakes.
-
-
 
 ## Application Notes
 
@@ -24,19 +20,17 @@ These dive into more detail for specialized topics or typical usage scenarios.
   
   Recently there have been many new LoRa APRS projects gaining great popularity in Europe.  They include trackers, digipeaters, and IGates.
   
-  There is a large chasm between these new projects and the existing VHF APRS network. Here is a simple and very flexible approach to provide bridging between LoRa APRS and traditional APRS.
+  There is a large chasm between these new projects and the existing VHF APRS network. Here is a simple and very flexible approach to provide bridging between LoRa APRS and traditional APRS without IGates and APRS-IS in the middle.
 
-* [**APRS Digipeaters**](APRS-Digipeaters.pdf)  \[ [*download*](../../../direwolf-doc/raw/master/doc/APRS-Digipeaters.pdf) ]
+* [**APRS Digipeaters**](https://raw.githubusercontent.com/wb2osz/direwolf-doc/main/APRS-Digipeaters.pdf)  
   
   AX.25 digital repeaters (digipeaters) use a “store and forward” approach.  A packet is received, examined, then possibly modified and retransmitted.   Usually it is retransmitted on the same radio channel but it is also possible for a multi-port digipeater to link multiple radio channels.  Packets received on one channel can be retransmitted on different channels.
   
   The APRS Protocol Reference 1.01 doesn’t describe how a digipeater should work.  As a result, we find many implementations that don’t behave exactly the same.   Newer implementations have found different ways to overcome weaknesses in the traditional TNCs.
 
-* [**Successful APRS IGate Operation**](Successful-APRS-IGate-Operation.pdf)  \[ [*download*](../../../direwolf-doc/raw/master/doc/Successful-APRS-IGate-Operation.pdf) ]
-
- Dire Wolf can serve as a gateway between the APRS radio network and APRS-IS servers on the Internet.
-
-This explains how it all works, proper configuration, and troubleshooting.
+* [**Successful APRS IGate Operation**](https://raw.githubusercontent.com/wb2osz/direwolf-doc/main/Successful-APRS-IGate-Operation.pdf)  
+  
+  Dire Wolf can serve as a gateway between the APRS radio network and APRS-IS servers on the Internet. This explains how it all works, proper configuration, and troubleshooting.
 
 * [**Internal Packet Routing**](Internal-Packet-Routing.pdf)  \[ [*download*](../../../direwolf-doc/raw/master/doc/Internal-Packet-Routing.pdf) ]
   
@@ -46,7 +40,7 @@ This explains how it all works, proper configuration, and troubleshooting.
   
   Dire Wolf started out very simple, but over time, many new options were added for creative use cases.  All of the different options, are in various places in the User Guide, and can be confusing.   This is an attempt to reduce the confusion.
 
-* [**Dire Wolf Radio Interface Guide**](Radio-Interface-Guide.pdf)  \[ [*download*](../../../direwolf-doc/raw/master/doc/Radio-Interface-Guide.pdf) ]
+* [**Dire Wolf Radio Interface Guide**](https://raw.githubusercontent.com/wb2osz/direwolf-doc/main/Radio-Interface-Guide.pdf) 
   
   There is a surprising amount of confusion about interfacing Dire Wolf with radios.  Perhaps it is because the documentation is scattered in different places.  Here, I have attempted to gather it all together in one place, hopefully in an easy to use format.
   

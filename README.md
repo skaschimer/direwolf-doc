@@ -66,8 +66,12 @@ These dive into more detail for specialized topics or typical usage scenarios.
 * [**CWOP**](CWOP.pdf) \[ [download](../../../direwolf-doc/raw/master/doc/CWOP.pdf) ]
   
   Learn about Citizen's Weather Observation Program (CWOP) and how direwolf can be used to download the data.
+
+* [**AX.25 version 2.0 to version 2.2 comparison**](AX.25-version-2.2.pdf) [ [download](../../../direwolf-doc/raw/master/doc/AX.25-version-2.2.pdf) ]
   
-  ## 
+  Learn about the improvements in AX.25 version 2.2. 
+  
+  
   
   ## Miscellaneous
 
